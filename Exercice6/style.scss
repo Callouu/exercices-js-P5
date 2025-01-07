@@ -9,8 +9,5 @@ $blue: #0000ff;
 li {
     color: $blue;
     @include padding;
-}
-
-ul {
     @include margin;
 }
