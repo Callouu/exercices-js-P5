@@ -1,0 +1,16 @@
+$blue: #0000ff;
+@mixin margin {
+    margin-bottom: 15px;
+}
+@mixin padding {
+    padding-left: 10px;
+}
+
+li {
+    color: $blue;
+    @include padding;
+}
+
+ul {
+    @include margin;
+}
